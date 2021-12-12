@@ -1,4 +1,4 @@
-const checkPalindrome=(str) =>{
+const palindrome=(str) =>{
 
     //check the length of a string
     const strLength= str.length
@@ -15,4 +15,4 @@ const checkPalindrome=(str) =>{
 }
 
 const string = prompt('Please enter a string')
-console.log(checkPalindrome(string))
+console.log(palindrome(string))

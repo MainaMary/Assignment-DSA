@@ -1,10 +1,5 @@
 ## Instructions
 
-1. Below is a set of algorithms
-2. Implememet the algorithms each in it's own file
-3. Add all the files to one github repo
-4. Reply with a link to the github repo
-
 ## Algorithms
 
 1. Sieve of Eratosthenes

@@ -1,5 +1,6 @@
-const num = 10000;
-const findPrimes = (num = 10) => {
+
+
+const sieveOfEratosthenes = (num = 10) => {
    const numArr = new Array(num + 1);
    numArr.fill(true);
    numArr[0] = numArr[1] = false;
@@ -16,4 +17,6 @@ const findPrimes = (num = 10) => {
       };
    },[]);
 };
-console.log(findPrimes(num));
+const inputVal = prompt('Enter a value')
+console.log(sieveOfEratosthenes(inputVal));
+

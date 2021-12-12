@@ -1,4 +1,4 @@
-const lcm =(n1, n2) =>{
+const leastCommonMultiple=(n1, n2) =>{
  let largest = Math.max(n1, n2)
  let smallest = Math.min(n1, n2)
 
@@ -16,5 +16,5 @@ const lcm =(n1, n2) =>{
 }
 //Taking an input from the user
 const firstVal  = parseInt(prompt('Enter the first number'));
-const secondVal = parseInt(prompt('Enter a second number'));
-console.log(lcm(firstVal, secondVal))
+const secondVal = parseInt(prompt('Enter the second number'));
+console.log(leastCommonMultiple(firstVal, secondVal))
