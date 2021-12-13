@@ -17,6 +17,6 @@ const sieveOfEratosthenes = (num = 10) => {
       };
    },[]);
 };
-const inputVal = prompt('Enter a value')
-console.log(sieveOfEratosthenes(inputVal));
+const num = Math.pow(2,10)
+console.log(sieveOfEratosthenes(num));
 
